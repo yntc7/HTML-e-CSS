@@ -1,0 +1,35 @@
+<html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando Transform</title>
+    <style>
+        #container{
+            height: 94vh;
+            padding: 10px;
+            position: relative;
+            background: blue url(imagens/target001.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        #conteudo{
+            height: 200px;
+            width: 400px;
+            background: orange url(imagens/target001.png) no-repeat;
+            background-size: 100% 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
