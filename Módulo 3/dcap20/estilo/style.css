@@ -34,25 +34,23 @@ section {
     line-height: 2em;
     padding-left: 30px;
 }
-.imageJ{
+#J {
     color: white;
-    background: darkgray url(imagens/background001.jpg) no-repeat fixed;
+    background: darkgray url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 6px 0px 13px 0px rgba(0, 0, 0, 0.507);
 }
-.imageC{
+#C {
     color: white;
-    background: darkgray url(imagens/background002.jpg) no-repeat fixed;
+    background: darkgray url(imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 6px 0px 13px 0px rgba(0, 0, 0, 0.507);
 }
-.imageJ > p {
+.image > p {
     background-color: rgba(0, 0, 0, 0.308);
     display: inline-block;
-    font-weight: bold;
-}
-.imageC > p {
-    background-color: rgba(0, 0, 0, 0.438);
-    width: 400px;
-    font-weight: bold;
+    font-weight: lighter;
+    text-shadow: 2px 2px 0px black;
 }
 .white {
     background-color: white;
